@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Danubio en bicicleta: guía completa de Passau a Viena | Guías Secretas</title>
+  <meta name="description" content="Todo lo que necesitas para hacer el Danubio en bicicleta de Passau a Viena: la ruta, la logística, los ferries, el Wachau y el primer capítulo de la guía gratis.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://danubio.guiassecretas.com/">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Poppins:wght@600;700;900&display=swap" rel="stylesheet">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Danubio en bicicleta: guía completa de Passau a Viena">
+  <meta property="og:description" content="280 km, 6 etapas, 8 días. Todo lo que necesitas para hacer el Danubio en bicicleta bien hecho.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://danubio.guiassecretas.com/">
+  <meta property="og:site_name" content="Guías Secretas">
+
+  <style>
+    :root {
+      --red: #ef2d2e;
+      --red-dark: #c82526;
+      --black: #1a1a1a;
+      --text: #333;
+      --bg: #fff;
+      --bg-warm: #FFF8E7;
+      --border: #eee;
+    }
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      font-size: 16px;
+      color: var(--text);
+      background: var(--bg);
+      line-height: 1.7;
+    }
+
+    /* ---- HERO ---- */
+    .hero {
+      background: linear-gradient(160deg, #0d2a3a 0%, #1a5a7a 55%, #0d3a5a 100%);
+      padding: 72px 24px 64px;
+      text-align: center;
+    }
+    .eyebrow {
+      display: inline-block;
+      background: var(--red);
+      color: #fff;
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      padding: 4px 14px;
+      border-radius: 4px;
+      margin-bottom: 20px;
+      font-family: 'Poppins', sans-serif;
+    }
+    .hero h1 {
+      font-family: 'Poppins', sans-serif;
+      font-size: clamp(30px, 5.5vw, 58px);
+      font-weight: 900;
+      color: #fff;
+      line-height: 1.1;
+      text-shadow: 0 2px 16px rgba(0,0,0,0.35);
+      max-width: 800px;
+      margin: 0 auto 16px;
+    }
+    .hero h1 em { font-style: italic; color: rgba(255,255,255,0.85); }
+    .hero p {
+      font-size: clamp(15px, 2vw, 18px);
+      color: rgba(255,255,255,0.75);
+      max-width: 560px;
+      margin: 0 auto 32px;
+      line-height: 1.65;
+    }
+    .hero-btns {
+      display: flex;
+      justify-content: center;
+      gap: 12px;
+      flex-wrap: wrap;
+      margin-bottom: 48px;
+    }
+    .btn-primary {
+      display: inline-block;
+      background: var(--red);
+      color: #fff;
+      font-family: 'Poppins', sans-serif;
+      font-size: 16px;
+      font-weight: 700;
+      padding: 15px 32px;
+      border-radius: 8px;
+      text-decoration: none;
+      transition: background 0.2s;
+    }
+    .btn-primary:hover { background: var(--red-dark); }
+    .btn-secondary {
+      display: inline-block;
+      background: rgba(255,255,255,0.1);
+      border: 1px solid rgba(255,255,255,0.25);
+      color: #fff;
+      font-family: 'Poppins', sans-serif;
+      font-size: 16px;
+      font-weight: 600;
+      padding: 15px 32px;
+      border-radius: 8px;
+      text-decoration: none;
+      transition: background 0.2s;
+    }
+    .btn-secondary:hover { background: rgba(255,255,255,0.18); }
+    .hero-stats {
+      display: flex;
+      justify-content: center;
+      gap: 40px;
+      flex-wrap: wrap;
+    }
+    .hero-stat { text-align: center; }
+    .hero-stat strong {
+      display: block;
+      font-family: 'Poppins', sans-serif;
+      font-size: 22px;
+      font-weight: 900;
+      color: #fff;
+    }
+    .hero-stat span {
+      font-size: 13px;
+      color: rgba(255,255,255,0.6);
+    }
+
+    /* ---- CONTAINER ---- */
+    .container {
+      max-width: 1060px;
+      margin: 0 auto;
+      padding: 0 24px;
+    }
+
+    /* ---- SECTION ---- */
+    .section { padding: 64px 0; border-bottom: 1px solid var(--border); }
+    .section:last-of-type { border-bottom: none; }
+    .section-header { margin-bottom: 32px; }
+    .section-label {
+      display: inline-block;
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: var(--red);
+      font-family: 'Poppins', sans-serif;
+      margin-bottom: 8px;
+    }
+    .section-header h2 {
+      font-family: 'Poppins', sans-serif;
+      font-size: clamp(20px, 2.8vw, 28px);
+      font-weight: 700;
+      color: var(--black);
+      margin-bottom: 8px;
+    }
+    .section-header p {
+      font-size: 15px;
+      color: #666;
+      max-width: 620px;
+      line-height: 1.65;
+    }
+
+    /* ---- ARTICLE GRID ---- */
+    .art-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+      gap: 16px;
+    }
+    .art-item {
+      display: flex;
+      align-items: flex-start;
+      gap: 14px;
+      padding: 16px;
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      text-decoration: none;
+      color: inherit;
+      transition: box-shadow 0.2s, transform 0.2s;
+    }
+    .art-item:hover {
+      box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+      transform: translateY(-2px);
+    }
+    .art-icon {
+      width: 42px;
+      height: 42px;
+      background: var(--bg-warm);
+      border-radius: 8px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 20px;
+      flex-shrink: 0;
+    }
+    .art-content { flex: 1; min-width: 0; }
+    .art-tag {
+      display: inline-block;
+      font-size: 10px;
+      font-weight: 700;
+      letter-spacing: 1.5px;
+      text-transform: uppercase;
+      color: var(--red);
+      margin-bottom: 4px;
+      font-family: 'Poppins', sans-serif;
+    }
+    .art-title {
+      font-family: 'Poppins', sans-serif;
+      font-size: 15px;
+      font-weight: 600;
+      color: var(--black);
+      line-height: 1.35;
+      margin-bottom: 4px;
+    }
+    .art-desc {
+      font-size: 13px;
+      color: #777;
+      line-height: 1.5;
+    }
+
+    /* ---- FEAT GRID (cards grandes) ---- */
+    .feat-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+      gap: 16px;
+      margin-bottom: 16px;
+    }
+    .feat-card {
+      display: block;
+      padding: 20px;
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      text-decoration: none;
+      color: inherit;
+      transition: box-shadow 0.2s, transform 0.2s;
+    }
+    .feat-card:hover {
+      box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+      transform: translateY(-2px);
+    }
+    .feat-card .icon { font-size: 32px; margin-bottom: 12px; display: block; }
+    .feat-card .tag {
+      display: inline-block;
+      font-size: 10px;
+      font-weight: 700;
+      letter-spacing: 1.5px;
+      text-transform: uppercase;
+      color: var(--red);
+      margin-bottom: 6px;
+      font-family: 'Poppins', sans-serif;
+    }
+    .feat-card h3 {
+      font-family: 'Poppins', sans-serif;
+      font-size: 16px;
+      font-weight: 700;
+      color: var(--black);
+      line-height: 1.3;
+      margin-bottom: 6px;
+    }
+    .feat-card p {
+      font-size: 13px;
+      color: #777;
+      line-height: 1.5;
+    }
+
+    /* ---- CTA BAND ---- */
+    .cta-band {
+      background: var(--black);
+      padding: 72px 24px;
+      text-align: center;
+    }
+    .cta-band h2 {
+      font-family: 'Poppins', sans-serif;
+      font-size: clamp(22px, 3vw, 36px);
+      font-weight: 900;
+      color: #fff;
+      max-width: 600px;
+      margin: 0 auto 12px;
+      line-height: 1.2;
+    }
+    .cta-band p {
+      color: rgba(255,255,255,0.65);
+      font-size: 16px;
+      max-width: 480px;
+      margin: 0 auto 28px;
+    }
+    .cta-band .btn-primary { font-size: 17px; padding: 18px 40px; }
+    .cta-sub {
+      display: block;
+      font-size: 13px;
+      color: rgba(255,255,255,0.4);
+      margin-top: 14px;
+    }
+
+    /* ---- FOOTER ---- */
+    footer {
+      background: var(--black);
+      color: #aaa;
+      text-align: center;
+      padding: 28px 24px;
+      font-size: 14px;
+      border-top: 1px solid #2a2a2a;
+    }
+    footer a { color: var(--red); text-decoration: none; }
+    footer a:hover { text-decoration: underline; }
+
+    /* ---- RESPONSIVE ---- */
+    @media (max-width: 640px) {
+      .art-grid { grid-template-columns: 1fr; }
+      .feat-grid { grid-template-columns: repeat(2, 1fr); }
+      .hero-btns { flex-direction: column; align-items: center; }
+      .hero-stats { gap: 24px; }
+    }
+    @media (max-width: 420px) {
+      .feat-grid { grid-template-columns: 1fr; }
+    }
+  </style>
+  <script src="/stay22.js" defer></script>
+</head>
+<body>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="eyebrow">Guías Secretas</div>
+  <h1>La guía del <em>Danubio</em> en bicicleta</h1>
+  <p>Passau a Viena. 280 km, 6 etapas, 8 días. Todo lo que necesitas para hacerlo bien: la ruta, los ferries, las márgenes correctas y los secretos que no están en ningún otro sitio.</p>
+  <div class="hero-btns">
+    <a href="https://coordenadassecretas.com/danubio-etapa-1-gratis" class="btn-primary">Probar el primer capítulo gratis →</a>
+    <a href="ruta-danubio-en-bicicleta.html" class="btn-secondary">Ver la ruta completa</a>
+  </div>
+  <div class="hero-stats">
+    <div class="hero-stat"><strong>280 km</strong><span>Passau → Viena</span></div>
+    <div class="hero-stat"><strong>6 etapas</strong><span>50-60 km / día</span></div>
+    <div class="hero-stat"><strong>Mar 2026</strong><span>Actualizado</span></div>
+  </div>
+</section>
+
+<!-- SECTION 1: LA RUTA -->
+<div class="container">
+  <section class="section">
+    <div class="section-header">
+      <span class="section-label">La Ruta</span>
+      <h2>De Passau a Viena: visión general</h2>
+      <p>Todo lo que necesitas saber antes de pedalear: las etapas, el presupuesto, el nivel físico y la clave que ninguna guía genérica explica bien.</p>
+    </div>
+    <div class="feat-grid">
+      <a href="ruta-danubio-en-bicicleta.html" class="feat-card">
+        <span class="icon">🚴</span>
+        <span class="tag">Ruta completa</span>
+        <h3>Ruta del Danubio en bicicleta: guía completa</h3>
+        <p>280 km, 6 etapas, presupuesto y todo sobre las márgenes del río.</p>
+      </a>
+    </div>
+  </section>
+
+  <!-- SECTION 2: LOGÍSTICA -->
+  <section class="section">
+    <div class="section-header">
+      <span class="section-label">Logística</span>
+      <h2>Antes de salir: tren, bici y ferries</h2>
+      <p>Cómo ir a Passau, dónde alquilar la bici en Viena, cómo funciona el tren con bicicleta y todo sobre los transbordadores del Danubio.</p>
+    </div>
+    <div class="feat-grid">
+      <a href="passau-viena-bicicleta.html" class="feat-card">
+        <span class="icon">🚂</span>
+        <span class="tag">Logística</span>
+        <h3>De Passau a Viena: tren, ferries y consejos prácticos</h3>
+        <p>Tren ÖBB, alquiler de bici en Viena, ferries y efectivo. Todo resuelto antes de salir.</p>
+      </a>
+    </div>
+  </section>
+
+  <!-- SECTION 3: DESTINOS -->
+  <section class="section">
+    <div class="section-header">
+      <span class="section-label">Destinos</span>
+      <h2>Los tramos y lugares de la ruta</h2>
+      <p>Desde el gran meandro de Schlögen hasta el Wachau. Los destinos que hacen que esta ruta sea distinta a cualquier otra.</p>
+    </div>
+    <div class="art-grid">
+      <a href="wachau-en-bicicleta.html" class="art-item">
+        <div class="art-icon">🍇</div>
+        <div class="art-content">
+          <span class="art-tag">Patrimonio UNESCO</span>
+          <div class="art-title">El Wachau en bicicleta</div>
+          <div class="art-desc">Viñedos, abadía de Melk, Dürnstein y las bodegas Heuriger. El tramo más bonito del Danubio.</div>
+        </div>
+      </a>
+      <a href="meandro-schlogen.html" class="art-item">
+        <div class="art-icon">🌊</div>
+        <div class="art-content">
+          <span class="art-tag">Etapa 1</span>
+          <div class="art-title">El gran meandro de Schlögen</div>
+          <div class="art-desc">La primera gran postal de la ruta. Abadía trapense y el mirador más espectacular del tramo alemán.</div>
+        </div>
+      </a>
+      <a href="linz-san-florian-strudengau.html" class="art-item">
+        <div class="art-icon">🏰</div>
+        <div class="art-content">
+          <span class="art-tag">Etapas 2-4</span>
+          <div class="art-title">Linz, San Florián y el Strudengau</div>
+          <div class="art-desc">Linzer Torte, el órgano Bruckner en directo y el tramo donde el Danubio se encajona.</div>
+        </div>
+      </a>
+      <a href="melk-danubio-bicicleta.html" class="art-item">
+        <div class="art-icon">⛪</div>
+        <div class="art-content">
+          <span class="art-tag">Etapa 5</span>
+          <div class="art-title">Abadía de Melk en bicicleta</div>
+          <div class="art-desc">50 metros sobre el Danubio, barroco puro y la puerta de entrada al Wachau UNESCO.</div>
+        </div>
+      </a>
+      <a href="passau-danubio.html" class="art-item">
+        <div class="art-icon">🏙️</div>
+        <div class="art-content">
+          <span class="art-tag">Día 0 · El punto de partida</span>
+          <div class="art-title">Passau: qué ver y cómo preparar el inicio de la ruta</div>
+          <div class="art-desc">La confluencia de tres ríos, el órgano más grande del mundo y todo lo que necesitas antes de pedalear.</div>
+        </div>
+      </a>
+      <a href="cuantos-dias-ruta-danubio.html" class="art-item">
+        <div class="art-icon">📅</div>
+        <div class="art-content">
+          <span class="art-tag">Planificación · Passau → Krems</span>
+          <div class="art-title">Cuántos días necesitas para la ruta del Danubio en bicicleta</div>
+          <div class="art-desc">Opciones de 5, 7-8 y 10-12 días. Tabla de etapas y qué factores condicionan el ritmo.</div>
+        </div>
+      </a>
+    </div>
+  </section>
+</div>
+
+<!-- CTA BAND -->
+<section class="cta-band">
+  <h2>El primer capítulo de la guía es gratis</h2>
+  <p>Passau completo y la primera etapa hasta Schlögen: mapas interactivos, cambios de margen marcados y recomendaciones verificadas.</p>
+  <a href="https://coordenadassecretas.com/danubio-etapa-1-gratis" class="btn-primary">Probar el primer capítulo gratis →</a>
+  <span class="cta-sub">Dejas tu email y te la enviamos enseguida.</span>
+</section>
+
+<footer>
+  <p>© 2026 <a href="https://guiassecretas.com">Guías Secretas</a> · <a href="https://coordenadassecretas.com">coordenadassecretas.com</a></p>
+</footer>
+
+</body>
+</html>

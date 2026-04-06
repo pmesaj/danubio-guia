@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://danubio.guiassecretas.com/sitemap.xml
